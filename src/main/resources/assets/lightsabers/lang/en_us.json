@@ -1,23 +1,85 @@
 {
-  "item.lightsabers.sapphire": "Sapphire",
-  "item.lightsabers.raw_sapphire": "Raw Sapphire",
-
-  "item.lightsabers.metal_detector": "Metal Detector",
-  "item.lightsabers.strawberry": "Strawberry",
-  "item.lightsabers.pine_cone": "Pine Cone",
-
-  "block.lightsabers.sapphire_block": "Block of Sapphire",
-  "block.lightsabers.raw_sapphire_block": "Block of Raw Sapphire",
-
-  "block.lightsabers.sapphire_ore": "Sapphire Ore",
-  "block.lightsabers.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
-  "block.lightsabers.end_stone_sapphire_ore": "Endstone Sapphire Ore",
-  "block.lightsabers.nether_sapphire_ore": "Nether Sapphire Ore",
-
-  "block.lightsabers.sound_block": "Sound Block",
-
-  "tooltip.lightsabers.metal_detector.tooltip": "Finds valuables underground!",
+  "---------------------- MESSAGES ----------------------": "-------------------------",
+  "messages.lightsabers.palantir.to_self": "Cannot link Palantir to itself.",
 
 
-  "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
+  "---------------------- KEYBINDS ----------------------": "-------------------------",
+  "key.lightsabers.k": "Testing Key",
+
+
+  "---------------------- EFFECTS ----------------------": "-------------------------",
+  "effect.lightsabers.unseen_form": "Unseen Form",
+
+  "---------------------- BLOCKS ----------------------": "-------------------------",
+  "block.lightsabers.lightsaber_forge": "Lightsaber Forge",
+
+
+  "---------------------- CREATIVE TABS ----------------------": "-------------------------",
+  "creativetab.lightsabers.misc_contents": "Advanced Lightsabers",
+
+
+  "---------------------- LIGHTSABERS ----------------------": "-------------------------",
+  "item.lightsabers.lightsaber": "Lightsaber",
+  "item.lightsabers.double_lightsaber": "Double Lightsaber",
+
+  "---------------------- RESOURCES ----------------------": "-------------------------",
+  "item.lightsabers.kyber_crystal": "Kyber Crystal",
+  "item.lightsabers.lightsaber_circuitry": "Lightsaber Circuitry",
+  "item.lightsabers.focusing_crystal_fine_cut": "Focusing Crystal (Fine Cut)",
+
+  "---------------------- LIGHTSABER PARTS ----------------------": "-------------------------",
+  "lightsaber.color": "Blade Color",
+  "lightsaber.hilt": "Hilt Design",
+  "lightsaber.focusingCrystals": "Focusing Crystals",
+  "lightsaber.upper": "Upper Blade",
+  "lightsaber.lower": "Lower Blade",
+  "lightsaber.lightsabers.color": "Blade Colors",
+
+  "lightsaber.color.deep_blue": "Deep Blue",
+  "lightsaber.color.medium_blue": "Medium Blue",
+  "lightsaber.color.light_blue": "Light Blue",
+  "lightsaber.color.arctic_blue": "Arctic Blue",
+  "lightsaber.color.white": "White",
+  "lightsaber.color.indigo": "Indigo",
+  "lightsaber.color.purple": "Purple",
+  "lightsaber.color.magenta": "Magenta",
+  "lightsaber.color.pink": "Pink",
+  "lightsaber.color.red": "Red",
+  "lightsaber.color.blood_orange": "Blood Orange",
+  "lightsaber.color.amber": "Amber",
+  "lightsaber.color.yellow": "Yellow",
+  "lightsaber.color.gold": "Gold",
+  "lightsaber.color.lime_green": "Lime Green",
+  "lightsaber.color.green": "Green",
+  "lightsaber.color.mint_green": "Mint Green",
+  "lightsaber.color.cyan": "Cyan",
+
+  "lightsaber.focusingCrystal.compressed": "Compressed",
+  "lightsaber.focusingCrystal.cracked": "Cracked",
+  "lightsaber.focusingCrystal.inverting": "Inverting",
+  "lightsaber.focusingCrystal.fine_cut": "Fine Cut",
+  "lightsaber.focusingCrystal.prismatic": "Prismatic",
+
+
+  "---------------------- TOOLS ----------------------": "-------------------------",
+  "item.lightsabers.crystal_pouch": "Crystal Pouch",
+  "item.lightsabers.lightsaber_blade_emitter": "Lightsaber Blade Emitter",
+  "item.lightsabers.lightsaber_switch_module": "Lightsaber Switch Module",
+  "item.lightsabers.lightsaber_grip": "Lightsaber Grip",
+  "item.lightsabers.lightsaber_pommel": "Lightsaber Pommel",
+
+
+  "---------------------- ARMOR ----------------------": "-------------------------",
+  "item.lightsabers.oliphaunt_armor": "Oliphaunt Armor",
+
+
+  "---------------------- ENTITIES ----------------------": "-------------------------",
+  "entity.lightsabers.fell_beast": "Fell Beast",
+  "item.lightsabers.fell_beast_spawn_egg": "Fell Beast Spawn Egg",
+
+
+  "---------------------- MISC ----------------------": "-------------------------",
+  "config.jade.plugin_lightsabers.petrified_troll_entity": "Petrified Troll",
+
+  "---------------------- EMI TAGS ----------------------": "-------------------------"
 }

@@ -1,9 +1,11 @@
 package net.mrconqueso.lightsabers;
 
 import com.mojang.logging.LogUtils;
+import net.mrconqueso.lightsabers.common.block.ModBlockEntities;
 import net.mrconqueso.lightsabers.common.block.ModBlocks;
-import net.mrconqueso.lightsabers.common.item.ModCreativeModTabs;
+import net.mrconqueso.lightsabers.common.item.ModItemGroups;
 import net.mrconqueso.lightsabers.common.item.ModItems;
+import net.mrconqueso.lightsabers.common.registry.ModRegistries;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,26 +28,20 @@ public class AdvancedLightsabers {
     public AdvancedLightsabers() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModTabs.register(modEventBus);
+        ModItemGroups.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModRegistries.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
 
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

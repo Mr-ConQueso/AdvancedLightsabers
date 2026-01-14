@@ -1,7 +1,5 @@
 package net.mrconqueso.lightsabers.datagen.loot;
 
-import net.mrconqueso.lightsabers.common.block.ModBlocks;
-import net.mrconqueso.lightsabers.common.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
@@ -13,6 +11,7 @@ import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
+import net.mrconqueso.lightsabers.common.block.ModBlocks;
 
 import java.util.Set;
 
@@ -23,19 +22,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
-        this.dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-        this.dropSelf(ModBlocks.SOUND_BLOCK.get());
-
-        this.add(ModBlocks.SAPPHIRE_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
-        this.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
-        this.add(ModBlocks.NETHER_SAPPHIRE_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.NETHER_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
-        this.add(ModBlocks.END_STONE_SAPPHIRE_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.END_STONE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
-
+        this.dropSelf(ModBlocks.LIGHTSABER_FORGE.get());
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
